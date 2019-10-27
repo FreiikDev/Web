@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    bottom: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.center{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.social{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+@media only screen and (min-width: 1200px) {
+    .logo{
+        width: 20rem;
+    }
+    h1{
+        margin-top: -4rem;
+        font-family: 'Pacifico', cursive;
+        font-size: 3.0rem;
+        font-weight: 400;
+    }
+    h2{
+        margin: 0;
+        margin-top: -1rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    h3{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 3rem;
+    }
+    a{
+        overflow: hidden;
+        color: transparent;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .social-logo{
+        height: 3rem;
+        width: 3rem;
+    }
+}
+@media only screen and (max-width: 970px) and (orientation : portrait) {
+    .logo{
+        width: 15rem;
+    }
+    h1{
+        margin-top: -2rem;
+        font-family: 'Pacifico', cursive;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    h2{
+        margin-top: -1rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .social-logo{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+@media only screen and (max-width: 970px) and (orientation : landscape) {
+    .logo{
+        width: 12rem;
+    }
+    h1{
+        margin-top: -2rem;
+        font-family: 'Pacifico', cursive;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    h2{
+        margin-top: -1rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    h3{
+        margin-top: -0.5rem;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .social-logo{
+        height: 2rem;
+        width: 2rem;
+    }
+}
